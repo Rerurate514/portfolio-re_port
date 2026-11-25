@@ -7,8 +7,19 @@
     "nodejs_compat"
   ],
   "assets": {
-    "directory": "./dist"
-  }
+    "directory": "./dist",
+    "base_path": "/portfolio"
+  },
+  "routes": [
+    {
+      "pattern": "rerurate.com/portfolio",
+      "zone_name": "rerurate.com"
+    },
+    {
+      "pattern": "rerurate.com/portfolio/*",
+      "zone_name": "rerurate.com"
+    }
+  ]
   // "vars": {
   //   "MY_VAR": "my-variable"
   // },
