@@ -1,0 +1,16 @@
+@import "./components/viewport/styles.css";
+@import "./components/scene/styles.css";
+
+@import "./pages/home/styles.css";
+@import "./pages/about/styles.css";
+@import "./pages/projects/styles.css";
+@import "./pages/skills/styles.css";
+@import "./pages/articles/styles.css";
+@import "./pages/contacts/styles.css";
+@import "./pages/sharelinks/styles.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
