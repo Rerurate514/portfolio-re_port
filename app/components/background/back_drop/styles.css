@@ -1,0 +1,34 @@
+.backdrop {
+    position: absolute;
+
+    width: 1920px;
+    height: 1080px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%)
+                scale(var(--scene-scale, 1));
+
+    transform-origin: center;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.backdrop canvas {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.backdrop-project-code {
+    position: absolute;
+    color: var(--white);
+    top: 1000px;
+    left: 1000px;
+
+    font-size: 6em;
+
+    font-family: var(--rb-font-body);
+}

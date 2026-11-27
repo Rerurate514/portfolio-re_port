@@ -2,6 +2,7 @@
 
 @import "./components/viewport/styles.css";
 @import "./components/scene/styles.css";
+@import "./components/background/back_drop/styles.css";
 
 @import "./pages/home/styles.css";
 @import "./pages/about/styles.css";
@@ -11,9 +12,25 @@
 @import "./pages/contacts/styles.css";
 @import "./pages/sharelinks/styles.css";
 
+* {
+  box-sizing: border-box;
+}
+
 html,
-body {
-	margin: 0;
-	padding: 0;
-	background-color: var(--white);
+body,
+h1,
+h2,
+p {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
 }
