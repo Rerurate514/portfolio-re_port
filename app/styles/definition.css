@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Jost";
+  src: url("/fonts/Jost-Variable.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+}
+
+:root {
+    --black: #01002a;
+    --white: #f0f0f0;
+
+    --rb-font-body:
+    "Jost", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Noto Sans JP", "Yu Gothic", system-ui, sans-serif;
+
+    --rb-font-heading: var(--rb-font-body);
+}
