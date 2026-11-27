@@ -1,24 +1,24 @@
 {
-  "name": "basic",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build --mode client && vite build",
-    "preview": "wrangler dev",
-    "deploy": "pnpm run build && wrangler deploy"
-  },
-  "private": true,
-  "dependencies": {
-    "hono": "^4.13.16",
-    "honox": "0.1.61"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.4.16",
-    "@cloudflare/workers-types": "^5.20260712.1",
-    "@hono/vite-build": "^1.11.1",
-    "@hono/vite-dev-server": "^0.26.1",
-    "@tailwindcss/vite": "^4.3.2",
-    "vite": "^8.1.4",
-    "wrangler": "^4.110.0"
-  }
+	"name": "basic",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build --mode client && vite build",
+		"preview": "wrangler dev",
+		"deploy": "pnpm run build && wrangler deploy"
+	},
+	"private": true,
+	"dependencies": {
+		"hono": "^4.13.16",
+		"honox": "0.1.61"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.16",
+		"@cloudflare/workers-types": "^5.20260712.1",
+		"@hono/vite-build": "^1.11.1",
+		"@hono/vite-dev-server": "^0.26.1",
+		"@tailwindcss/vite": "^4.3.2",
+		"vite": "^8.1.4",
+		"wrangler": "^4.110.0"
+	}
 }

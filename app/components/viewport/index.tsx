@@ -1,9 +1,5 @@
-import { JSX, PropsWithChildren } from "hono/jsx";
+import { JSX, type PropsWithChildren } from "hono/jsx";
 
 export function Viewport({ children }: PropsWithChildren) {
-  return (
-    <div class="viewport">
-      {children}
-    </div>
-  )
+	return <div class="viewport">{children}</div>;
 }

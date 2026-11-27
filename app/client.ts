@@ -6,5 +6,5 @@ createClient();
 const viewport = document.querySelector<HTMLElement>(".viewport");
 
 if (viewport) {
-  initializeViewport(viewport);
+	initializeViewport(viewport);
 }

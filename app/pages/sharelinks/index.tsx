@@ -1,7 +1,7 @@
 export function ShareLinks() {
-  return (
-    <section id="sharelinks">
-      <div>sharelinks page</div>
-    </section>
-  )
+	return (
+		<section id="sharelinks">
+			<div>sharelinks page</div>
+		</section>
+	);
 }
