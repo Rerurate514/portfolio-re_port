@@ -8,11 +8,10 @@
     left: 50%;
 
     transform: translate(-50%, -50%)
-                scale(var(--scene-scale, 1));
+                scale(var(--backdrop-scale, 1));
 
     transform-origin: center;
     pointer-events: none;
-    z-index: 10;
 }
 
 .backdrop canvas {

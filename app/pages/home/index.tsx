@@ -1,7 +1,9 @@
+import { RightBanners } from "./components/right_banners";
+
 export function Home() {
 	return (
 		<section id="home">
-			<div>home page</div>
+		  <RightBanners />
 		</section>
 	);
 }

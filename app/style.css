@@ -5,11 +5,23 @@
 @import "./components/background/back_drop/styles.css";
 
 @import "./pages/home/styles.css";
+@import "./pages/home/components/right_banners/styles.css";
+
 @import "./pages/about/styles.css";
+
+
 @import "./pages/projects/styles.css";
+
+
 @import "./pages/skills/styles.css";
+
+
 @import "./pages/articles/styles.css";
+
+
 @import "./pages/contacts/styles.css";
+
+
 @import "./pages/sharelinks/styles.css";
 
 * {
