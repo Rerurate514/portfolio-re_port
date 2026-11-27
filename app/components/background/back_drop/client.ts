@@ -55,9 +55,9 @@ function drawBackPlate(ctx: CanvasRenderingContext2D, r: number) {
   ctx.closePath();
 
   ctx.shadowColor = "rgba(0, 0, 0, 0.5)";
-  ctx.shadowBlur = 40;
-  ctx.shadowOffsetX = -30;
-  ctx.shadowOffsetY = 30;
+  ctx.shadowBlur = 300;
+  ctx.shadowOffsetX = -100;
+  ctx.shadowOffsetY = 100;
 
   ctx.fillStyle = "#01002A";
   ctx.fill();
