@@ -1,6 +1,6 @@
 export function BackDrop() {
   return (
-    <div class="backdrop">
+    <div class="backdrop-layer">
       <canvas id="backdrop-canvas" content="drawable">
         <div class="backdrop-project-code" drawable="">
           <p>Project Code</p>
