@@ -1,4 +1,5 @@
-@import "./definition.css";
+@import "./styles/definition.css";
+@import "./styles/utils.css";
 
 @import "./components/viewport/styles.css";
 @import "./components/scene/styles.css";
